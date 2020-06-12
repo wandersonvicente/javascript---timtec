@@ -6,9 +6,13 @@ Aula 1 - Porque estudar JavaScript?
 - Linguagem padrão aberto (open source)
 
 Aula 2 - Linguagens e JavaScript
-- 
+- O JS afeta diretamente o conteúdo do HTML E CSS. 
 
 Aula 3 - JavaScript e HTML
+- Como linguagens de marcação funcionam:
+>> O HTML indica/marca onde e o que é cada conteúdo, texto, imagem, audio, etc.
+>> o CSS indica/marca como esse conteúde será apresentado para o usuário. 
+
 
 Aula 4 - Lógica de programação e Algorítimos
 
