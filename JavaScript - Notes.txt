@@ -23,6 +23,8 @@ JS - Comportamento - Adiciona interatividade e controle aos elementos.
 APIs - Pequenos programas que interagem com o JS. Permitem: elementos de geolocalização, controle de audios e vídeos, arrastar objetos, etc. 
 >> Formam um núcleo que liga as camadas de marcação, apresentação e HTML. 
 
+- JavaScript é uma Linguagem Orientada a Objetos. Se busca aproximação do mundo fícos real para o abstratos do mundo virtual
+- Objetos tem nomes, propriedades e comportamentos. 
 
 
 Aula 3 - JavaScript e HTML
