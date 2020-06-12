@@ -1,6 +1,8 @@
 JavaScript - Notes 
 
 Aula 1 - Porque estudar JavaScript?
+- Importante linguagem para que o seu conteúde funcione independente do tipo de browser seja exibido. 
+Torna as páginas mais interativas e responsivas para o usuário.
 
 Aula 2 - Linguagens e JavaScript
 
