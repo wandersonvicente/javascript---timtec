@@ -6,7 +6,9 @@ Aula 2 - Linguagens e JavaScript
 
 Aula 3 - JavaScript e HTML
 
-Aula 4 - Controle sobre o seu Código
+Aula 4 - Lógica de programação e Algorítimos
+
+Aula 5 -  Controle sobre o seu Código
 
 Aula 6 - Bibliotecas
 
