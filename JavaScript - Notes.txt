@@ -1,12 +1,14 @@
 JavaScript - Notes 
 
 Aula 1 - Porque estudar JavaScript?
+
 - Importante linguagem para que o seu conteúde funcione independente do tipo de browser seja exibido. 
 - Torna as páginas mais interativas e responsivas para o usuário.
 - Linguagem padrão aberto (open source)
 
 
 Aula 2 - Linguagens e JavaScript
+
 - O JS afeta diretamente o conteúdo do HTML E CSS. 
 - Como linguagens de marcação funcionam:
 >> O HTML indica/marca onde e o que é cada conteúdo, texto, imagem, audio, etc.
@@ -29,6 +31,10 @@ APIs - Pequenos programas que interagem com o JS. Permitem: elementos de geoloca
 
 Aula 3 - JavaScript e HTML
 
+- <script src="meucodigo.js"></script> (tag usada para inserir um arquivo externo de javascript para dentro do documento HTML)
+- <script src="meucodigo.js" async="async"></script> (esse atributo permite que o script funcione de maneira independente do html)
+
+- Scrpit interno é escrito dentro do corpo do HTML. Ex: <script> document.write ("Estou escrevendo com JavaScript") </script);
 
 
 Aula 4 - Lógica de programação e Algorítimos
