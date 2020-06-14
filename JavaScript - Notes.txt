@@ -34,17 +34,26 @@ Aula 3 - JavaScript e HTML
 - <script src="meucodigo.js"></script> (tag usada para inserir um arquivo externo de javascript para dentro do documento HTML)
 - <script src="meucodigo.js" async="async"></script> (esse atributo permite que o script funcione de maneira independente do html)
 
-- Scrpit interno é escrito dentro do corpo do HTML. Ex: <script> document.write ("Estou escrevendo com JavaScript") </script);
+- Scrpit interno é escrito dentro do documento do HTML. Ex: <script> document.write ("Estou escrevendo com JavaScript") </script);
 
 
 Aula 4 - Lógica de programação e Algorítimos
  
+- Conjuntos de intruções que ordenam os passos para realização das tarefas. 
 - 
 
 Aula 5 -  Controle sobre o seu Código
 
+-
+
 Aula 6 - Bibliotecas
+
+-
 
 Aula 7 - Plugins
 
+-
+
 Aula 8 - Frameworks
+
+-
