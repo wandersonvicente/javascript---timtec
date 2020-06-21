@@ -112,7 +112,57 @@ Math - Permite a realização de operações matemáticas.
 
 Aula 5 -  Controle sobre o seu Código
 
-- 
+>> Funções <<< 
+
+function correr (velo, acel, pos_a, pos_b){
+	if((vel + acel) > 0){
+	pos-b + pos_a + vel + ((acel*acel)/2);
+}else{
+	pos_b = pos_a;
+}
+}
+
+>> Eventos<<
+
+Acontecimentos espercíficos:
+- Quando eles acontecem servem para disparar funcões e códigos mais complexos pre-estabelecidas. 
+
+Ex: Clicar, arrastar o mouser, etc...
+
+- Pode ser feito de maneira INTRUSIVA (dentro do HTML). 
+Ex: Utilizando o DOM 
+
+<button onclick="somar(2,3)">
+teste
+</button>
+
+- Forma NÃO-INTRUSIVA(com um arquivo Js externo).
+
+# Listeners #
+- Disparam funções especificas quando ocorrem eventos determinados. 
+
+Ex: de formar NÃO-INTRUSIVA
+
+-JS-
+var atalho = document.getElementById("clique");
+atalho.addEventeListener("click,nomeAcao,false);
+function nomeAcao(){
+console.log("cliquei no botão");
+}
+
+-HTML- 
+<button id="clique"> teste </button>
+
+
+- DOM - DOCUMENT OBJECT MODEL 
+- Define o padrão para acesso a documentos. Define a hierarquia/fluxo/organograma. 
+
+- BOM - BROWSER OBJECT MODEL
+- Objetos relacionados ao navegador.
+
+
+
+
 
 Aula 6 - Bibliotecas
 
