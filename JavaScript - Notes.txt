@@ -40,7 +40,75 @@ Aula 3 - JavaScript e HTML
 Aula 4 - Lógica de programação e Algorítimos
  
 - Conjuntos de intruções que ordenam os passos para realização das tarefas. 
-- 
+- Funções: 
+>>>>> function nomedafuncao(parâmetro){ 
+		//aqui é o que a função vai executar (códigos)
+	}
+
+Ex: 
+<script. 
+funciton aviso(){
+	alert("Está é uma janela de aviso!")
+}
+</script> 
+
+-- Chamada de uma função no HTML: 
+<body onload="aviso()"> //quando a página carregar(onload), a função 'aviso()' vai ser executada. 
+
+>>> Condicionais <<<
+
+Instrunções que controlam a sequencia de execução do código: 
+
+if
+if/else
+if/else if
+if/else if/else
+switch
+
+>> Estrutura de repetição <<
+- O loopings são estrutura que permitem a repetição de determinada parte dos códigos.
+
+for 
+while
+
+Exemplos: 
+
+var prato = 1
+
+for(prato = 1; prato < 6; prato++) {
+	document.write(prato + "<br");
+}
+
+
+while
+var bolinho = 2
+
+while(bolinho <= 5){
+	document.write(bolinho + "porções" + <br>);
+bolinho++;
+}
+
+>> Objetos << 
+- São os principais tipos de dados na linguagem. 
+- Para definitir um objeto é obrigatótio o uso de letra maiúscula. 
+
+Princiais tipos:
+
+Number
+String
+Boolean
+Array
+
+Date - Possível escrever dadas e horários a partir das informações do sistema operacional. 
+	new Date()
+	Ex: document.write(Date());
+
+Math - Permite a realização de operações matemáticas.
+	Ex: Para gerar um número aleatório. 
+	
+	var aleatório = Math.random()
+	document.write(aleatório);
+
 
 Aula 5 -  Controle sobre o seu Código
 
