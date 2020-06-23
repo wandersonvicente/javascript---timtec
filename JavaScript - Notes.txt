@@ -160,8 +160,7 @@ console.log("cliquei no botão");
 - BOM - BROWSER OBJECT MODEL
 - Objetos relacionados ao navegador.
 
-
-
+>>> CÓDIGOS NA PASTA class05 <<<
 
 
 Aula 6 - Bibliotecas

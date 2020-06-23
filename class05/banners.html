@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Rotativo</title>
+
+    <script type="text/javascript">
+    //declaração de variáveis
+    var banners = ["https://images.pexels.com/photos/2194062/pexels-photo-2194062.jpeg?cs=srgb&dl=computador-monitor-monitorar-codificacao-2194062.jpg&fm=jpg","https://images.pexels.com/photos/1089440/pexels-photo-1089440.jpeg?cs=srgb&dl=internet-tecnologia-computador-exibicao-1089440.jpg&fm=jpg", "https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?cs=srgb&dl=criativo-engenhoso-inventivo-internet-2004161.jpg&fm=jpg"];
+    var alternativo = ["texto 1", "texto 2", "texto 3"];
+    var titulo = ["parangaricotirimirruaro", "titulo 2", "algum title"];
+    
+    //
+    var contador = 0;
+
+    //functions
+    function rotativo(){
+    //nesta linha endereco da imagem
+        document.images[0].src = banners[contador];
+    //o alt da imagem
+        document.images[0].alt = alternativo[contador];
+    //
+    contador++
+    //document.write(contador);
+    //
+    if(contador == banners.length){
+        contador = 0
+    }
+    //contador de tempo -> timer
+    setTimeout("rotativo()", 5000)
+    }
+
+    </script>
+</head>
+<body onload="rotativo()">
+    <img/>
+
+</body>
+</html>
