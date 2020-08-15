@@ -52,6 +52,6 @@ function novoSorteio(){
 }
 
 function novaFrase(){
-    novoNumero = Math.floor(Math.random() + citacao.length)
+    novoNumero = Math.floor(Math.random() + citacao.length);
     alert("\"" + citacao[novoNumero] + "\"")
 }
